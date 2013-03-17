@@ -76,7 +76,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
+<<<<<<< HEAD
 $(call inherit-product, vendor/aocp/config/nfc_enhanced.mk)
+=======
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+>>>>>>> 135d6c324de4d7025cf7be134609ecdda5e5dc85
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
